@@ -13,12 +13,47 @@ Virtual machines share resources and network interfaces with the host machine. B
 To get started with the provided virtual machine:
 
 1. **Download and install VirtualBox** from [https://www.virtualbox.org/](https://www.virtualbox.org/). The version used for this course was *VirtualBox-7.2.4-170995-Win*.
-2. **Load the provided virtual machine**. The VM uses [Ubuntu 22.04 LTS](https://releases.ubuntu.com/22.04/) as a base. The `.ora` file can be found in the [`ora`](./ora/) directory of this repository.
+2. **Load the provided virtual machine**. The VM uses [Ubuntu 22.04 LTS](https://releases.ubuntu.com/22.04/) as a base. The `.ora` file can be found [here](https://www.tobedone.com).
 3. **Login** with username `user` and password `qwertz`. Be aware of possible keyboard layout differences.
 4. **Pull this Repository** into the VM. It is precloned there, but you need to make sure to have the most up-to-date version.
 
 VMs are charming because they enable us to be on the same setup, configurations and starting point. This does not mean you need to stick around there, rather see it as a fallback, but feel free to run the code in your setup and environment.
 
+
+
+
+## Python Version
+
+This project is tested with **Python 3.10**. It is recommended to use a matching Python version for best results. You can check your Python version with:
+
+```sh
+python --version
+```
+
+
+To run the code examples on your own machine, follow these steps:
+
+1. **Create a virtual environment (venv):**
+	```sh
+	python -m venv .venv
+	```
+2. **Activate the virtual environment:**
+	- On Windows:
+	  ```sh
+	  .venv\Scripts\activate
+	  ```
+	- On macOS/Linux:
+	  ```sh
+	  source .venv/bin/activate
+	  ```
+3. **Install the required packages:**
+	```sh
+	pip install -r requirements.txt
+	```
+
+You are now ready to run the scripts in this repository!
+
+---
 
 ## Course Structure
 
