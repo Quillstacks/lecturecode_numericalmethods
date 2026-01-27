@@ -62,4 +62,5 @@ You are now ready to run the scripts in this repository!
 
 Topics covered
 - Lecture 1: [Tapping into Computational Power](./1_TappingIntoComputationalPower/) - Discretization 
-- Lecture 2:
+- Lecture 2: [Getting used to Errors everywhere](./2_GettingUsedToErrorsEverywhere/) - Floating Point Representation
+- Lecture 3: [Some call it Error. I call it Character](./3_WeCallItCharacter/) - Error Analysis of Numerical Solutions
